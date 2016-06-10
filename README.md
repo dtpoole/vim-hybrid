@@ -108,3 +108,11 @@ is intended) define the basic 16 colours in your terminal.
 ![vim-reduced1](https://www.dropbox.com/s/57mjs7rfzq1h128/vim-reduced1.png?dl=1)
 ![vim-reduced2](https://www.dropbox.com/s/l6nvcm91llfxwjx/vim-reduced2.png?dl=1)
 ![vim-reduced3](https://www.dropbox.com/s/838qoahio9klsz6/vim-reduced3.png?dl=1)
+
+# Fork
+
+This is a fork. Original documentation found [here](https://github.com/w0ng/vim-hybrid).
+
+I have modified a few highlight groups to my taste.
+
+![](https://cloud.githubusercontent.com/assets/9126138/13645145/bb474cb6-e5e6-11e5-8063-3ba0b8515d5b.png)
