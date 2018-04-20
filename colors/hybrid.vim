@@ -392,6 +392,8 @@ exe "hi! qfLineNr"        .s:fg_yellow      .s:bg_none        .s:fmt_none
 "   qfFileName"
 "   qfLineNr"
 "   qfError"
+exe "hi! deniteMatched"     .s:fg_background  .s:bg_yellow      .s:fmt_none
+exe "hi! deniteMatchedChar" .s:fg_yellow      .s:bg_background  .s:fmt_none
 
 "}}}
 " Diff Syntax Highlighting:"{{{
@@ -459,20 +461,20 @@ hi StatusLineNC cterm=none ctermbg=235 ctermfg=none
 
 
 if has("nvim") && exists("&termguicolors") && &termguicolors
-    let g:terminal_color_0  = "#282A2E"
-    let g:terminal_color_8  = "#373B41"
+    let g:terminal_color_0  = s:gui_line
+    let g:terminal_color_8  = s:gui_selection
     let g:terminal_color_1  = "#A54242"
-    let g:terminal_color_9  = "#CC6666"
+    let g:terminal_color_9  = s:fg_red
     let g:terminal_color_2  = "#B5BD68"
-    let g:terminal_color_10 = "#B5BD68"
-    let g:terminal_color_3  = "#DE935F"
+    let g:terminal_color_10 = s:fg_green
+    let g:terminal_color_3  = s:fg_orange
     let g:terminal_color_11 = "#709d6c"
     let g:terminal_color_4  = "#5F819D"
-    let g:terminal_color_12 = "#81A2BE"
+    let g:terminal_color_12 = s:fg_blue
     let g:terminal_color_5  = "#85678F"
-    let g:terminal_color_13 = "#B294BB"
+    let g:terminal_color_13 = s:fg_purple
     let g:terminal_color_6  = "#5E8D87"
-    let g:terminal_color_14 = "#8ABEB7"
-    let g:terminal_color_7  = "#707880"
-    let g:terminal_color_15 = "#C5C8C6"
+    let g:terminal_color_14 = s:fg_aqua
+    let g:terminal_color_7  = s:gui_selection
+    let g:terminal_color_15 = s:fg_foreground
 endif
