@@ -456,3 +456,23 @@ let &background = s:style
 hi ColorColumn cterm=none ctermbg=233 ctermfg=none
 hi StatusLine cterm=none ctermbg=235 ctermfg=white
 hi StatusLineNC cterm=none ctermbg=235 ctermfg=none
+
+
+if has("nvim") && exists("&termguicolors") && &termguicolors
+    let g:terminal_color_0  = "#282A2E"
+    let g:terminal_color_8  = "#373B41"
+    let g:terminal_color_1  = "#A54242"
+    let g:terminal_color_9  = "#CC6666"
+    let g:terminal_color_2  = "#B5BD68"
+    let g:terminal_color_10 = "#B5BD68"
+    let g:terminal_color_3  = "#DE935F"
+    let g:terminal_color_11 = "#709d6c"
+    let g:terminal_color_4  = "#5F819D"
+    let g:terminal_color_12 = "#81A2BE"
+    let g:terminal_color_5  = "#85678F"
+    let g:terminal_color_13 = "#B294BB"
+    let g:terminal_color_6  = "#5E8D87"
+    let g:terminal_color_14 = "#8ABEB7"
+    let g:terminal_color_7  = "#707880"
+    let g:terminal_color_15 = "#C5C8C6"
+endif
