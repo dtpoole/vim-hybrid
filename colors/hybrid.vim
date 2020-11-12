@@ -478,3 +478,14 @@ if has("nvim") && exists("&termguicolors") && &termguicolors
     let g:terminal_color_7  = s:gui_selection
     let g:terminal_color_15 = s:fg_foreground
 endif
+
+" DTP...
+""" Status Line
+"""" Status Colors
+hi StatusLine ctermfg=245 ctermbg=237 guifg=#3a3a3a guibg=#8a8a8a
+hi StatusLineNC ctermfg=239 ctermbg=234 guifg=#1c1c1c guibg=#4e4e4e
+
+" grey
+hi User1 ctermfg=249 ctermbg=239 guifg=#b2b2b2 guibg=#4e4e4e
+" blue
+"hi User1 ctermfg=253 ctermbg=24 guifg=#dadada guibg=#005f87
